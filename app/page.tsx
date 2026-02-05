@@ -1,9 +1,13 @@
-import Image from "next/image";
+import { ProfileCard } from "@/designs/profile-card";
+
+
 
 export default function Home() {
   return (
-    <div>
-      Hello world
+    <div className="min-h-screen ">
+      <div className="flex bg-[#cdcdcd] items-center justify-center h-screen">
+        <ProfileCard />
+      </div>
     </div>
   );
 }
