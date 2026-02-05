@@ -13,8 +13,8 @@ export const ProfileCard = () => {
 						height={256}
 						className=" w-full h-66  rounded-4xl"
 					/>
-					<div className=" absolute rounded-full  top-3 right-3 border border-white/35">
-						<button className="flex items-center justify-center bg-linear-to-b from-white/30  to-transparent  w-10 h-10 top-3 right-3  rounded-full  shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] hover:bg-black/30 transition-all duration-300 cursor-pointer backdrop-blur-sm">
+					<div className=" absolute rounded-full  top-3 right-3 border border-white/20">
+						<button className="flex items-center justify-center bg-linear-to-b from-white/20 to-transparent  w-10 h-10 top-3 right-3  rounded-full  shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] hover:bg-black/30 transition-all duration-300 cursor-pointer backdrop-blur-sm">
 							<Ellipsis className="text-white" />
 						</button>
 					</div>
@@ -27,7 +27,7 @@ export const ProfileCard = () => {
 							</h3>
 							<div className="flex items-center gap-3">
 								<div className="flex items-center justify-center p-[0.5px] bg-white rounded-full">
-									<div className="flex items-center justify-center bg-[#ebebeb] rounded-full w-8 h-8 backdrop-blur-sm cursor-pointer">
+									<div className="flex items-center justify-center bg-linear-to-b from-[#ebebeb] to-transparent  rounded-full w-8 h-8 backdrop-blur-sm cursor-pointer">
 										<svg
 											width={23}
 											height={23}
@@ -42,7 +42,7 @@ export const ProfileCard = () => {
 									</div>
 								</div>
 								<div className="flex ietms-center justify-center p-[0.5px] bg-white rounded-full">
-									<div className="flex items-center justify-center bg-[#ebebeb] rounded-full w-8 h-8 backdrop-blur-2xl cursor-pointer">
+									<div className="flex items-center justify-center bg-linear-to-b from-[#ebebeb] to-transparent rounded-full w-8 h-8 backdrop-blur-2xl cursor-pointer">
 										<Image
 											src="/instagram.png"
 											alt="instagram Logo"
