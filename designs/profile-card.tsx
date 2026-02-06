@@ -3,15 +3,15 @@ import { Ellipsis, Mail } from "lucide-react";
 
 export const ProfileCard = () => {
 	return (
-		<div className="bg-white rounded-4xl p-0.5 min-w-90">
-			<div className="bg-[#f9f9f9] rounded-4xl p-4 ">
+		<div className="bg-white rounded-[40px] p-0.5 min-w-90">
+			<div className="bg-[#f9f9f9] rounded-[38px] p-4 ">
 				<div className="relative bg-[#282828] p-0.5 rounded-4xl">
 					<Image
 						src="https://aicdn.picsart.com/47eeb9f2-d3dc-40d0-86bc-dbae1d9032f2.png"
 						alt="User"
 						width={256}
 						height={256}
-						className=" w-full h-66  rounded-4xl"
+						className=" w-full h-66 rounded-[30px]"
 					/>
 					<div className=" absolute rounded-full  top-3 right-3 border border-white/20">
 						<button className="flex items-center justify-center bg-linear-to-b from-white/20 to-transparent  w-10 h-10 top-3 right-3  rounded-full  shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] hover:bg-black/30 transition-all duration-300 cursor-pointer backdrop-blur-sm">
