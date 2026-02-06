@@ -54,7 +54,7 @@ export const ProfileCard = () => {
 								</div>
 							</div>
 						</div>
-						<span className="text-sm  font-medium text-gray-600 ">
+						<span className="text-sm font-medium text-gray-600">
 							Design and Inshallah
 						</span>
 					</div>
