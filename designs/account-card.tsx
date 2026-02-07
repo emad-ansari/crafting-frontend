@@ -4,7 +4,7 @@ import Image from "next/image";
 export const AccountDetailsCard = () => {
 	return (
 		<div className="flex flex-col gap-3 bg-[#000000] rounded-[40px] p-1 w-md">
-			<div className="flex flex-col gap-6 bg-[#222222] backdrop-blur-sm rounded-[36px] p-4 border border-gray-800 w-full">
+			<div className="flex flex-col gap-6 bg-[#222222] backdrop-blur-4xl rounded-[36px] p-4 border border-[#29292b] w-full">
 				<div className="flex flex-row items-center justify-between">
 					<div className="flex items-center  gap-2">
 						<div className="flex rounded-full bg-gray-400 p-1">
