@@ -11,7 +11,7 @@ export default function Home() {
       </div> */}
 
 			{/* Account Details Card  */}
-			<div className="relative flex min-h-screen bg-[#212121] items-center justify-center">
+			<div className="relative flex min-h-screen bg-[#212121] items-center justify-center overflow-hidden">
 				<Spotlight />
 				<AccountDetailsCard />
 			</div>
